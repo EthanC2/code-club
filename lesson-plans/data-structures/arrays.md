@@ -150,8 +150,10 @@ for(int i=0; i < 5; ++i)
 In _Arrays as a Physical Data Structure_, I mentioned that arrays have better performance than linked lists, but why? The answer is __cache locality__ \[[1](https://www.geeksforgeeks.org/locality-of-reference-and-cache-operation-in-cache-memory/)\]\[[2](https://www.quora.com/What-is-meant-by-cache-locality-of-arrays?share=1)\].
 You see, the CPU can only store a very small amount of data in its [registers](https://www.learncomputerscienceonline.com/what-are-cpu-registers/), so it has to store the majority
 of data in main memory \[[1](https://ulmerstudios.com/popular/what-is-main-memory-in-computer-architecture/)]\]\[[2](https://www.cs.uic.edu/~jbell/CourseNotes/OperatingSystems/8_MainMemory.html)\]. Unfortunately, accessing main memory (like most I/O operations) is very slow and could cause a CPU to idle for hundred or even thousands of CPU cycles, 
-so there the CPU takes advantage of an intermediary storage facilities called
-[caches](https://cpuninja.com/cpu-cache/) \[[1](https://www.youtube.com/watch?v=WDIkqP4JbkE&t=964s)\].
+so there the CPU takes advantage of an intermediary storage facilities called [_caches_](https://cpuninja.com/cpu-cache/) \[[1](https://www.youtube.com/watch?v=WDIkqP4JbkE&t=964s)\].
+The cache is a small, hierarchical region of memory that the CPU stores data it accesses more frequently. Usually, the cache is small (kB-MB) and has three levels: L1-L3, 
+but there may be less if you are running a smaller computer; for example, the raspberry pi only has an L1 and L2 cache
+\[[1](https://tech-society.com/cache-memory-what-is-it-how-does-it-work-what-about-l1-l2-and-l3/)\]\[[2](http://sandsoftwaresound.net/raspberry-pi/raspberry-pi-gen-1/memory-hierarchy/)\]. 
 
 # C-Style Arrays vs _std::array\<T,N\>_
 

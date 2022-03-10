@@ -1,7 +1,7 @@
 # Data Structures: Arrays
 An array is one of the most primitive but powerful data structures. An array is just a series of variables of some type (e.g. `int`, `char`, `double`) declared back to back
 in memory. These variables (called elements) can be individually accessed with their [index](https://js.educative.io/edpresso/how-to-access-the-elements-of-an-array-by-index-number-in-cpp), which is a number that represents their position in the array. It's important to know that array are zero-indexed, meaning that the index `0` represents the first element in 
-the array, not `1` like you would expect. 
+the array, not `1` like you would expect. Arrays are useful for succinctly representing ______, allowing you to avoid having to write `double score1, score2, score3, score4;` and so on.
 
 ```C++
 //Declare an array: <datatype> <name>[<amount>] = <values>

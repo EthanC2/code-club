@@ -14,7 +14,7 @@ std::cout << "The first element in the array is: " << arr[0] << '\n';
 
 //Print each element in the array: "1, 2, 3, 4, 5, 6, 7, 8, 9, 10"
 std::cout << "Array elements: ";
-for(std::size_t i=0; i < size; ++i)
+for(size_t i=0; i < size; ++i)
 {
     std::cout << arr[i] << (i != size-1 ? ", " : "");
 }

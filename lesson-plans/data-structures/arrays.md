@@ -162,4 +162,5 @@ linked lists, which often cause cache misses because their nodes are dispersed a
 
 
 <img src="https://user-images.githubusercontent.com/70488531/157774822-f1142e03-1933-45d9-b58b-8ade87495b6f.png" alt="diagram of a Core i7-9xx cache hierarchy" width="1000" height="600">
+
 > Source: [_code::dive conference 2014 - Scott Meyers: Cpu Caches and Why You Care_](https://www.youtube.com/watch?v=WDIkqP4JbkE) \[16:12\]

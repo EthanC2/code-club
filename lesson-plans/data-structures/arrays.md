@@ -155,8 +155,9 @@ The cache is a small, hierarchical region of memory that the CPU stores data it 
 but there may be less if you are running a smaller computer; for example, the raspberry pi only has an L1 and L2 cache
 \[[1](https://tech-society.com/cache-memory-what-is-it-how-does-it-work-what-about-l1-l2-and-l3/)\]\[[2](http://sandsoftwaresound.net/raspberry-pi/raspberry-pi-gen-1/memory-hierarchy/)\] \[[3](https://www.thetechlounge.com/cpu-cache/)\]. 
 
-The more data you can fit into the cache, the better. Since the elements of an array are contiuous, arrays have excellent [spatial locality](https://www.sciencedirect.com/topics/computer-science/spatial-locality), which means arrays have objectively better performance than a data structure like linked lists, that often cause cache misses because
-their nodes are dispersed all over memory \[[1](https://findatwiki.com/Spatial_Locality)\].
+The more data you can fit into the cache, the faster your program will run. Since the elements of an array are contiuous, arrays have excellent 
+[spatial locality](https://www.sciencedirect.com/topics/computer-science/spatial-locality), which means arrays have objectively better performance than a data structure like 
+linked lists, that often cause cache misses because their nodes are dispersed all over memory \[[1](https://findatwiki.com/Spatial_Locality)\].
 
 # C-Style Arrays vs _std::array\<T,N\>_
 

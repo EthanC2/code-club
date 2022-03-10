@@ -25,3 +25,5 @@ for(std::size_t i=0; i < size; ++i)
 
 # Arrays as a Physical Data Structure
 An array is an example of a [physical data structure](https://www.udemy.com/tutorial/datastructurescncpp/physical-vs-logical-data-structures/),
+
+# Arrays: Cache Locality

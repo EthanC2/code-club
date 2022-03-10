@@ -1,6 +1,7 @@
 ## Jump!
 1: [Data Structures: Arrays](https://github.com/EthanC2/code-club/blob/main/lesson-plans/data-structures/arrays.md#data-structures-arrays) <br />
 2: [Arrays as a Physical Data Structure](https://github.com/EthanC2/code-club/blob/main/lesson-plans/data-structures/arrays.md#arrays-as-a-physical-data-structure) <br />
+3: [Array Internals](https://github.com/EthanC2/code-club/blob/main/lesson-plans/data-structures/arrays.md#array-internals) <br />
 
 # Data Structures: Arrays
 An array is one of the most primitive but powerful data structures. An array is just a series of variables of some type (e.g. `int`, `char`, `double`) declared back to back

@@ -1,4 +1,4 @@
-### Jump!
+## Jump!
 1: [Data Structures: Arrays](https://github.com/EthanC2/code-club/blob/main/lesson-plans/data-structures/arrays.md#data-structures-arrays) <br />
 2: [Arrays as a Physical Data Structure](https://github.com/EthanC2/code-club/blob/main/lesson-plans/data-structures/arrays.md#arrays-as-a-physical-data-structure) <br />
 

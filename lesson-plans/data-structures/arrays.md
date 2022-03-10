@@ -147,6 +147,10 @@ for(int i=0; i < 5; ++i)
 
 # Arrays Performance: Cache Locality
 In _Arrays as a Physical Data Structure_, I mentioned that arrays have better performance than linked lists, but why? The answer is __cache locality__ \[[1](https://www.geeksforgeeks.org/locality-of-reference-and-cache-operation-in-cache-memory/)\]\[[2](https://www.quora.com/What-is-meant-by-cache-locality-of-arrays?share=1)\].
+You see, the CPU can only store a very small amount of data in its [registers](https://www.learncomputerscienceonline.com/what-are-cpu-registers/), so it has to store the majority
+of data in main memory \[[1](https://ulmerstudios.com/popular/what-is-main-memory-in-computer-architecture/)]\]\[[2](https://www.cs.uic.edu/~jbell/CourseNotes/OperatingSystems/8_MainMemory.html)\]. Unfortunately, accessing main memory (like most I/O operations) is very slow and could cause a CPU to idle for hundred or even thousands of CPU cycles, 
+so there the CPU takes advantage of an intermediary storage facilities called
+[caches](https://cpuninja.com/cpu-cache/) \[[1](https://www.youtube.com/watch?v=WDIkqP4JbkE&t=964s)\].
 
 # C-Style Arrays vs _std::array\<T,N\>_
 

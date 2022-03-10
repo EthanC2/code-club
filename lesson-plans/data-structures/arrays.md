@@ -23,10 +23,11 @@ for(std::size_t i=0; i < size; ++i)
 > The first element in the array is: 1 <br />
 > Array elements: 1, 2, 3, 4, 5, 6, 7, 8, 9, 10 <br />
 
+# Arrays as a Physical Data Structure
+An array is an example of a [physical data structure](https://www.udemy.com/tutorial/datastructurescncpp/physical-vs-logical-data-structures/); along with a linked list,
+arrays are the building blocks of most other data structures (e.g. stack, queue, heap) [1](http://faculty.cs.niu.edu/~mcmahon/CS241/Notes/array_based_stack.html)[2](http://faculty.cs.niu.edu/~mcmahon/CS241/Notes/Data_Structures/array_based_queue.html)[3](https://www.algolist.net/Data_structures/Binary_heap/Array-based_int_repr).
+
 # Array Internals 
 Internally, an array is just a pointer.
-
-# Arrays as a Physical Data Structure
-An array is an example of a [physical data structure](https://www.udemy.com/tutorial/datastructurescncpp/physical-vs-logical-data-structures/),
 
 # Arrays Performance: Cache Locality

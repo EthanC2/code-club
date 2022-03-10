@@ -159,4 +159,6 @@ Essentially, the more data you can fit into the cache, the faster your program w
 [spatial locality](https://www.sciencedirect.com/topics/computer-science/spatial-locality), which means arrays have objectively better performance than a data structure like 
 linked lists, which often cause cache misses because their nodes are dispersed all over memory \[[1](https://findatwiki.com/Spatial_Locality)\].
 
-![image](https://user-images.githubusercontent.com/70488531/157774822-f1142e03-1933-45d9-b58b-8ade87495b6f.png)
+
+
+<img src="https://user-images.githubusercontent.com/70488531/157774822-f1142e03-1933-45d9-b58b-8ade87495b6f.png" alt="diagram of a Core i7-9xx cache hierarchy" width="500" height="600">

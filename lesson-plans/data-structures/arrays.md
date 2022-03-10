@@ -7,7 +7,7 @@
 # Data Structures: Arrays
 An array is one of the most primitive but powerful data structures. An array is just a series of variables of some type (e.g. `int`, `char`, `double`) declared back to back
 in memory. These variables (called elements) can be individually accessed with their [index](https://js.educative.io/edpresso/how-to-access-the-elements-of-an-array-by-index-number-in-cpp), which is a number that represents their position in the array. It's important to know that array are zero-indexed, meaning that the index `0` represents the first element in 
-the array, not `1` like you would expect. Arrays are useful for succinctly representing many variables with a similer/the same purpose, allowing you to avoid having to write 
+the array, not `1` like you would expect. Arrays are useful for succinctly representing many variables with a similar/the same purpose, allowing you to avoid having to write 
 `double score1, score2, score3, score4;` and so on.
 
 ```C++
@@ -155,6 +155,8 @@ The cache is a small region of memory that the CPU stores data it accesses frequ
 L1-L3. However, there may be less if you are running a smaller computer; for example, the raspberry pi only has an L1 and L2 cache
 \[[1](https://tech-society.com/cache-memory-what-is-it-how-does-it-work-what-about-l1-l2-and-l3/)\]\[[2](http://sandsoftwaresound.net/raspberry-pi/raspberry-pi-gen-1/memory-hierarchy/)\] \[[3](https://www.thetechlounge.com/cpu-cache/)\]. 
 
-Essentially, The more data you can fit into the cache, the faster your program will run. Since the elements of an array are contiguous, arrays have excellent 
+Essentially, the more data you can fit into the cache, the faster your program will run. Since the elements of an array are contiguous, arrays have excellent 
 [spatial locality](https://www.sciencedirect.com/topics/computer-science/spatial-locality), which means arrays have objectively better performance than a data structure like 
 linked lists, which often cause cache misses because their nodes are dispersed all over memory \[[1](https://findatwiki.com/Spatial_Locality)\].
+
+![image](https://user-images.githubusercontent.com/70488531/157774822-f1142e03-1933-45d9-b58b-8ade87495b6f.png)

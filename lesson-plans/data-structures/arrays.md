@@ -25,9 +25,11 @@ for(std::size_t i=0; i < size; ++i)
 
 # Arrays as a Physical Data Structure
 An array is an example of a [physical data structure](https://www.udemy.com/tutorial/datastructurescncpp/physical-vs-logical-data-structures/); along with a linked list,
-arrays are the building blocks of most other data structures (e.g. stack, queue, heap) \[[1](http://faculty.cs.niu.edu/~mcmahon/CS241/Notes/array_based_stack.html)\]\[[2](http://faculty.cs.niu.edu/~mcmahon/CS241/Notes/Data_Structures/array_based_queue.html)\]\[[3](https://www.algolist.net/Data_structures/Binary_heap/Array-based_int_repr)\].
+arrays are the building blocks of most other data structures (e.g. stack, queue, heap) \[[1](http://faculty.cs.niu.edu/~mcmahon/CS241/Notes/array_based_stack.html)\]\[[2](http://faculty.cs.niu.edu/~mcmahon/CS241/Notes/Data_Structures/array_based_queue.html)\]\[[3](https://www.algolist.net/Data_structures/Binary_heap/Array-based_int_repr)\]. Typically,
+you will use an array-based data structure instead of a linked list based one if the size is static (unchanging) because of their better performance.
 
 # Array Internals 
 Internally, an array is just a pointer.
 
 # Arrays Performance: Cache Locality
+In _Arrays as a Physical Data Structure_, I mentioned that arrays have better performance than linked lists, but why? The answer is __cache locality__ \[[1](https://www.geeksforgeeks.org/locality-of-reference-and-cache-operation-in-cache-memory/)\]\[[2](https://www.quora.com/What-is-meant-by-cache-locality-of-arrays?share=1)\].

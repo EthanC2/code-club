@@ -33,3 +33,5 @@ Internally, an array is just a pointer.
 
 # Arrays Performance: Cache Locality
 In _Arrays as a Physical Data Structure_, I mentioned that arrays have better performance than linked lists, but why? The answer is __cache locality__ \[[1](https://www.geeksforgeeks.org/locality-of-reference-and-cache-operation-in-cache-memory/)\]\[[2](https://www.quora.com/What-is-meant-by-cache-locality-of-arrays?share=1)\].
+
+# C-Style Array vs _std::array\<T,N\>_

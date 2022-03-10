@@ -123,9 +123,13 @@ void Stack<T,N>::clear()
 ```
 
 # Array Internals 
-Internally, an array is just a pointer.
+"An array is a sequence of objects (variables) of the same type that occupy a contiguous area of memory" \[[1](https://docs.microsoft.com/en-us/cpp/cpp/arrays-cpp?view=msvc-170)\].
+Since all the elements of the array are back-to-back in memory, it would be a waste to maintain a reference to every single one; it's far more efficient to store a reference
+to the beginning of the memory along with the amount of elements and then just do the math. So, that's exactly what C++ does.
 
 # Arrays Performance: Cache Locality
 In _Arrays as a Physical Data Structure_, I mentioned that arrays have better performance than linked lists, but why? The answer is __cache locality__ \[[1](https://www.geeksforgeeks.org/locality-of-reference-and-cache-operation-in-cache-memory/)\]\[[2](https://www.quora.com/What-is-meant-by-cache-locality-of-arrays?share=1)\].
 
-# C-Style Array vs _std::array\<T,N\>_
+# C-Style Arrays vs _std::array\<T,N\>_
+
+# C-Style Arrays vs _std::vector\<T\>_

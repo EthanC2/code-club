@@ -161,4 +161,4 @@ linked lists, which often cause cache misses because their nodes are dispersed a
 
 
 
-<img src="https://user-images.githubusercontent.com/70488531/157774822-f1142e03-1933-45d9-b58b-8ade87495b6f.png" alt="diagram of a Core i7-9xx cache hierarchy" width="1000" height="600">
+<img src="https://user-images.githubusercontent.com/70488531/157774822-f1142e03-1933-45d9-b58b-8ade87495b6f.png" alt="diagram of a Core i7-9xx cache hierarchy" width="900" height="600">

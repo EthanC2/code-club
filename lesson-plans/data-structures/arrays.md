@@ -158,7 +158,3 @@ L1-L3. However, there may be less if you are running a smaller computer; for exa
 Essentially, The more data you can fit into the cache, the faster your program will run. Since the elements of an array are contiguous, arrays have excellent 
 [spatial locality](https://www.sciencedirect.com/topics/computer-science/spatial-locality), which means arrays have objectively better performance than a data structure like 
 linked lists, which often cause cache misses because their nodes are dispersed all over memory \[[1](https://findatwiki.com/Spatial_Locality)\].
-
-# C-Style Arrays vs _std::array\<T,N\>_
-
-# C-Style Arrays vs _std::vector\<T\>_

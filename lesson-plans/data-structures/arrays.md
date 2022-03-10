@@ -26,7 +26,96 @@ for(size_t i=0; i < size; ++i)
 # Arrays as a Physical Data Structure
 An array is an example of a [physical data structure](https://www.udemy.com/tutorial/datastructurescncpp/physical-vs-logical-data-structures/); along with a linked list,
 arrays are the building blocks of most other data structures (e.g. stack, queue, heap) \[[1](http://faculty.cs.niu.edu/~mcmahon/CS241/Notes/array_based_stack.html)\]\[[2](http://faculty.cs.niu.edu/~mcmahon/CS241/Notes/Data_Structures/array_based_queue.html)\]\[[3](https://www.algolist.net/Data_structures/Binary_heap/Array-based_int_repr)\]. Typically,
-you will use an array-based data structure instead of a linked list based one if the size is static (unchanging) because of their better performance.
+you will use an array-based data structure instead of a linked list based one if the size is static (unchanging) because of their better performance. Below is an example
+of an array-based stack that I based on C++'s [std::stack](https://en.cppreference.com/w/cpp/container/stack) from the standard template library (STL).
+
+```C++
+template <typename T, size_t N>
+class Stack
+{
+  private:
+      T data[N];
+      size_t current_size;
+      size_t max_size;
+
+  public:
+      //Special functions
+      Stack();
+
+      //Accessors
+      size_t size() const;
+      size_t capacity() const;
+      [[nodiscard]] bool empty() const;
+      bool full() const;
+      T top() const;
+
+      //Mutators
+      void push(T);
+      void pop();
+      void clear();
+};
+
+template <typename T, size_t N>
+Stack<T,N>::Stack()
+{
+    current_size = 0;
+    max_size = N;
+}
+
+template <typename T, size_t N>
+size_t Stack<T,N>::size() const
+{
+    return current_size;
+}
+
+template <typename T, size_t N>
+size_t Stack<T,N>::capacity() const
+{
+    return max_size;
+}
+
+template <typename T, size_t N>
+bool Stack<T,N>::empty() const
+{
+    return current_size == 0;
+}
+
+template <typename T, size_t N>
+bool Stack<T,N>::full() const
+{
+    return current_size == max_size;
+}
+
+template <typename T, size_t N>
+T Stack<T,N>::top() const
+{
+    return data[current_size-1];
+}
+
+template <typename T, size_t N>
+void Stack<T,N>::push(T value)
+{
+    if (full())
+      std::clog << "Error! stack is already at max size!\n";
+    else
+    {
+        data[current_size] = value;
+        current_size++;
+    }
+}
+
+template <typename T, size_t N>
+void Stack<T,N>::pop()
+{
+    current_size--;
+}
+
+template <typename T, size_t N>
+void Stack<T,N>::clear()
+{
+    current_size = 0;
+}
+```
 
 # Array Internals 
 Internally, an array is just a pointer.

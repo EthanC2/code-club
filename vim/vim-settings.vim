@@ -57,22 +57,3 @@ if has('mouse')                 " Enable selecting line via mouse -- you're welc
 endif
 
 set pastetoggle=<F11>           " Toggle 'paste'/'nopaste' with F11
-
-" Plugin Settings
-" ===============
-
-" Rainbow Brackets: highlight brackets pairs with color
-" -----------------------------------------------------
-let g:rainbow_active = 1  " Enable rainbow brackets globally
-
-" NERDTree: commandline-based filesystem
-" --------------------------------------
-" Start NERDTree and put the cursor back in the other window.
-autocmd VimEnter * NERDTree | wincmd p
-
-" Mirror the NERDTree before showing it. This makes it the same on all tabs.
-nnoremap <C-n> :NERDTreeMirror<CR>:NERDTreeFocus<CR>
-
-" Map 'shift + left/right key' to swap between NERDTree tabs
-map  <S-Right> :tabn<CR>
-map  <S-Left> :tabn<CR>      

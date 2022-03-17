@@ -45,7 +45,6 @@ set autoindent                  " Enable automatic indentation to match current 
 set smartindent                 " Adjust automatic indentation to current indentation level
 
 set wildmenu                    " Enable auto-complete for commandline commands
-set wildmode=list:long          " Make auto-complete more similar to Bash
 set showcmd                     " Show partial commands on last line of screen
 
 set hlsearch                    " Highlight search terms in addition to jumping to them

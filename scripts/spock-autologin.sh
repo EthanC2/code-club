@@ -13,7 +13,7 @@
 # 5.       Replace 'password' with your password and 'username' with your username
 # 6.       Open or create the file '~/.bash_aliases' in your home directory             vim ~/.bash_aliases
 # 7.       Add an alias called 'spock' that automatically runs 'spock-autologin.sh'     alias spock='bash ~/.scripts/spock-autologin.sh'
-# 8.       Relead your ~/.bash_aliases file with the 'source' command                   source ~/.bash_aliases
+# 8.       Reload your ~/.bash_aliases file with the 'source' command                   source ~/.bash_aliases
 # 9.       Test your new script by typing in 'spock' :D                                 spock
    
 #! /bin/bash

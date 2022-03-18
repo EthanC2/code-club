@@ -3,7 +3,7 @@
 # Operating System: Ubuntu 20.04 LTS
 # Function: automatically logs you into the HPU Spock server by just typing 'spock'
 
-# Step     Directions                                                                  What You Need to Type
+# Step     Directions                                                                   What You Need to Type
 # ====     ==========                                                                   =====================
 # 1.       Install sshpass                                                              sudo apt update && sudo apt install sshpass
 # 2.       Create a hidden directory called '.scripts' in your home directory           mkdir ~/.scripts
@@ -13,6 +13,8 @@
 # 5.       Replace 'password' with your password and 'username' with your username
 # 6.       Open or create the file '~/.bash_aliases' in your home directory             vim ~/.bash_aliases
 # 7.       Add an alias called 'spock' that automatically runs 'spock-autologin.sh'     alias spock='bash ~/.scripts/spock-autologin.sh'
- 
+# 8.       Relead your ~/.bash_aliases file with the 'source' command                   source ~/.bash_aliases
+# 9.       Test your new script by typing in 'spock' :D                                 spock
+   
 #! /bin/bash
 sshpass -p password ssh username@spock.highpoint.edu

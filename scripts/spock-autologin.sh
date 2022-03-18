@@ -1,7 +1,8 @@
 # Author: Ethan Cox
 # Date: 3/18/2022
 # Operating System: Ubuntu 20.04 LTS
-# Function: automatically logs you into the HPU Spock server by just typing 'spock'
+# Function: Automatically logs you into the HPU Spock server by just typing 'spock'
+# PS: This script could easily be repurposed for linus or joecool :)
 
 # Step     Directions                                                                   What You Need to Type
 # ====     ==========                                                                   =====================

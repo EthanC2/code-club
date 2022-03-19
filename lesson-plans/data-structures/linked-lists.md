@@ -12,7 +12,12 @@ because the memory is not contiguous. To access values in a linked list, you hav
 which takes O(n) time. 
 
 ```C++
-
+template <typename T>
+struct Node
+{
+    T value;
+    Node<T>* next;
+};
 ```
 
 # Linked List Implementation

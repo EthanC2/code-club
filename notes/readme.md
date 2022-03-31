@@ -1,1 +1,1 @@
-# Collections of notes — for nerds
+# Collections of notes, for nerds

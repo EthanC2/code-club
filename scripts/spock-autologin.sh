@@ -3,6 +3,11 @@
 # Operating System: Ubuntu 20.04 LTS
 # Function: Automatically logs into SSH server
 
+# IMPORTANT:
+# ==========
+# SSHPass will silently fail if the host key cannot be validated.
+# To avoid this, log in manually once to the server.
+
 # Step     Directions                                                                   What You Need to Type
 # ====     ==========                                                                   =====================
 # 1.       Install sshpass                                                              sudo apt update && sudo apt install sshpass

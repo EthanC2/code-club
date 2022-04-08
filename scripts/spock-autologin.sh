@@ -1,8 +1,7 @@
 # Author: Ethan Cox
 # Date: 3/18/2022
 # Operating System: Ubuntu 20.04 LTS
-# Function: Automatically logs you into the HPU Spock server by just typing 'spock'
-# PS: This script could easily be repurposed for linus or joecool :)
+# Function: Automatically logs into SSH server
 
 # Step     Directions                                                                   What You Need to Type
 # ====     ==========                                                                   =====================
@@ -18,4 +17,4 @@
 # 9.       Test your new script by typing in 'spock' :D                                 spock
    
 #! /bin/bash
-sshpass -p password ssh username@spock.highpoint.edu
+sshpass -p password ssh username@server

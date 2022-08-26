@@ -10,7 +10,8 @@
 
 
 # Subclubs
-Subclubs are 
+The computer science department has students with a diverse set of interests, which is reflected in the C.O.D.E. Club through _subclubs_. Subclubs are specialized
+subgroups of the C.O.D.E. club that focus on a specific subject: programming, cybersecurity, competitive programming, et cetera. 
 
 ```mermaid
 graph TD;

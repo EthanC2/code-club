@@ -14,8 +14,8 @@ Subclubs are
 
 ```mermaid
 graph TD;
+    Code_Club-->Programming_Subclub;
+    Code_Club-->Cybersecurity_Subclub;
     Code_Club-->Competitive_Programming_Subclub;
-    Code_Club-->B;
-    Code_Club-->C;
-    Code_Club-->D;
+    Code_Club-->HPU_Minds_Subclub;
 ```

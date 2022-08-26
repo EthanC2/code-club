@@ -14,8 +14,8 @@ Subclubs are
 
 ```mermaid
 graph TD;
-    Code Club-->B;
-    Code Club-->C;
-    Code Club-->D;
-    Code Club-->D;
+    Code_Club-->B;
+    Code_Club-->C;
+    Code_Club-->D;
+    Code_Club-->D;
 ```

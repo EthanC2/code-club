@@ -11,6 +11,7 @@
 - Formalize subclubs (pick leaders?)
 - Pick a day of the week to meet
 - Create a community discord server (done!)
+- Create an official GitHub account for the C.O.D.E. Club under High Point University
 
 # Subclubs
 The computer science department has students with a diverse set of interests, which is reflected in the C.O.D.E. Club through _subclubs_. Subclubs are specialized

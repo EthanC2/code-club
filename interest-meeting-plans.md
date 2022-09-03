@@ -8,6 +8,8 @@
 - The last week of every month is reserved for social events (with the HPU Minds club)
 - Added Python support to better integrate with the department and be more welcoming for freshmen
 
+# Introduction to HPU Minds
+(Provided by Ash)
 
 # Gifts for Showing Up
 - `.vimrc` settings file

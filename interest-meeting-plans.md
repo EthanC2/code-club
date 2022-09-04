@@ -8,10 +8,18 @@
 - The last week of every month is reserved for social events (with the HPU Minds club)
 - Added Python support to better integrate with the department and be more welcoming for freshmen
 
-# Introduction to HPU Minds
+# Subclubs
+
+## The Cybersecurity Club
+
+## The Competitive Programming Club
+
+## The Programming Club
+
+## HPU Minds
 (Provided by Ash)
 
-# Gifts for Showing Up
+# For Showing Up
 - `.vimrc` settings file
 - Automatic spock login with SSHPass by typing `spock`
 

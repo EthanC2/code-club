@@ -16,8 +16,8 @@ Leader: Reilly.
 
 ```mermaid
 graph TD;
-    id1[Thing 1]-->id2[Thing 2];
-    id2[Thing 2]-->id1[Thing 1];
+    id1[Participate in Capture the Flag Competitions]-->id2[Read Write-ups Post-Competition];
+    id2[Read Write-ups Post-Competition]-->id1[Participate in Capture the Flag Competitions];
 ```
 
 - Resources:

@@ -12,18 +12,19 @@
 Subclubs are exactly what they sound like: smaller clubs under the C.O.D.E. Club 
 
 ## The Cybersecurity Club
-- Leader: Reilly
-The ...
+Leader: Reilly.
 
 - Resources:
 
 ## The Competitive Programming Club
-- Leader: None
-- Resources: [ctftools](https://github.com/zardus/ctf-tools), [The Book of Secret Knowledge](https://github.com/trimstray/the-book-of-secret-knowledge), [National Cyber League (NCL)](https://nationalcyberleague.org/), [HackTheBox](https://www.hackthebox.com/hacker/ctf)
+Leader: None (Ally?).
+
+Resources: [ctftools](https://github.com/zardus/ctf-tools), [The Book of Secret Knowledge](https://github.com/trimstray/the-book-of-secret-knowledge), [National Cyber League (NCL)](https://nationalcyberleague.org/), [HackTheBox](https://www.hackthebox.com/hacker/ctf)
 
 ## The Programming Club
-- Leader: None (fallback: Ethan)
-- Resouces:
+Leader: None (fallback: Ethan).
+
+Resouces:
 
 ## HPU Minds
 (Provided by Ash)

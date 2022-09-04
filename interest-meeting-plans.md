@@ -16,8 +16,8 @@ Leader: Reilly.
 
 ```mermaid
 graph TD;
-    A-->B;
-    B-->A;
+    [Thing 1]-->[Thing 2];
+    [Thing 2]-->[Thing 1];
 ```
 
 - Resources:

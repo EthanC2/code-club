@@ -36,6 +36,12 @@ Resources: [ctftools](https://github.com/zardus/ctf-tools), [The Book of Secret 
 ## The Programming Club
 Leader: None (fallback: Ethan).
 
+```mermaid
+graph TD;
+    id1[Participate in Capture the Flag Competitions]-->id2[Read Write-ups Post-Competition];
+    id2[Read Write-ups Post-Competition]-->id1[Participate in Capture the Flag Competitions];
+```
+
 Resouces:
 
 ## HPU Minds

@@ -1,4 +1,5 @@
 #! /bin/bash
+# Run command: sudo -E install-spock-autologin.sh
 
 # Constants
 declare -r scripts_dir="$HOME/.scripts"

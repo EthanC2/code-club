@@ -14,6 +14,12 @@ Subclubs are exactly what they sound like: smaller clubs under the C.O.D.E. Club
 ## The Cybersecurity Club
 Leader: Reilly.
 
+```mermaid
+graph TD;
+  A-->B;
+  B-->A;
+```
+
 - Resources:
 
 ## The Competitive Programming Club

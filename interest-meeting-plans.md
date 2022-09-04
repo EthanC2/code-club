@@ -25,6 +25,12 @@ graph TD;
 ## The Competitive Programming Club
 Leader: None (Ally?).
 
+```mermaid
+graph TD;
+    id1[Participate in Competitive Programming Competitions]-->id2[Review Problems and Solutions Post-Competition];
+    id2[Review Problems and Solutions Post-Competition]-->id1[Participate in Competitive Programming Competitions];
+```
+
 Resources: [ctftools](https://github.com/zardus/ctf-tools), [The Book of Secret Knowledge](https://github.com/trimstray/the-book-of-secret-knowledge), [National Cyber League (NCL)](https://nationalcyberleague.org/), [HackTheBox](https://www.hackthebox.com/hacker/ctf)
 
 ## The Programming Club

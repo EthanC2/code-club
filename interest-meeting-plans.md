@@ -12,15 +12,17 @@
 Subclubs are exactly what they sound like: smaller clubs under the C.O.D.E. Club 
 
 ## The Cybersecurity Club
-Leader: Reilly.
+Leader: Reilly
+
+- Heavily based around a feedback loop of competiting in cyber CTFs and then reviewing the write-ups
+    1. Thig
+    2. tew
 
 ```mermaid
 graph TD;
     id1[Participate in Capture the Flag Competitions]-->id2[Read Write-ups Post-Competition];
     id2[Read Write-ups Post-Competition]-->id1[Participate in Capture the Flag Competitions];
 ```
-
-- Resources:
 
 ## The Competitive Programming Club
 Leader: None (Ally?).
@@ -36,8 +38,6 @@ graph TD;
     id1[Participate in Competitive Programming Competitions]-->id2[Review Problems and Solutions Post-Competition];
     id2[Review Problems and Solutions Post-Competition]-->id1[Participate in Competitive Programming Competitions];
 ```
-
-Resources: [ctftools](https://github.com/zardus/ctf-tools), [The Book of Secret Knowledge](https://github.com/trimstray/the-book-of-secret-knowledge), [National Cyber League (NCL)](https://nationalcyberleague.org/), [HackTheBox](https://www.hackthebox.com/hacker/ctf)
 
 ## The Programming Club
 Leader: None (fallback: Ethan).

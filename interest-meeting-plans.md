@@ -9,15 +9,16 @@
 - Added Python support to better integrate with the department and be more welcoming for freshmen
 
 # Subclubs
-Subclubs are exactly what they sound like: smaller clubs under the C.O.D.E. Club 
+Subclubs are exactly what they sound like: smaller, unofficial clubs under the C.O.D.E. Club. The three subclubs are cybersecurity, competitive programming, and
+programming. Each week, the main club will focus on one of the three subclubs. HPU Minds is an independent club.
 
 ## The Cybersecurity Club
 Leader: Reilly
 
-- Heavily based around a feedback loop of competiting in cyber CTFs and then reviewing the write-ups
-    1. Thig
-    2. tew
-- Other
+- Heavily based around a feedback loop of competiting in cyber CTFs/Hackathons and then reviewing the write-ups
+    1. Seasonal competitions (NCL, CSAW, PicoCTF)
+    2. Year-round Practice Ranges (PicoCTF Range, NCL Gymnasium, CTFtime)
+- Centralized cyber repository for storing write-ups and organizing notes
 
 ```mermaid
 graph TD;
@@ -26,7 +27,7 @@ graph TD;
 ```
 
 ## The Competitive Programming Club
-Leader: None (Ally?).
+Leader: None (Ally?)
 
 - Practice websites: Kattis and LeetCode
 - 2-3 Weekly problems from Kattis, LeetCode, or other sites like CodeWars
@@ -41,7 +42,9 @@ graph TD;
 ```
 
 ## The Programming Club
-Leader: None (fallback: Ethan).
+Leader: None (fallback: Ethan)
+
+- Main focus is just building projects. That's it.
 
 ```mermaid
 graph TD;

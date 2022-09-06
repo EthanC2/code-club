@@ -25,6 +25,12 @@ graph TD;
 ## The Competitive Programming Club
 Leader: None (Ally?).
 
+- Practice websites: Kattis and LeetCode
+- 2-3 Weekly problems from Kattis, LeetCode, or other sites like CodeWars
+- Attending college coding competiions like [ICPC](https://icpc.global/) (November!)
+- Post-competition problem review
+- Reference repository with common data structures and algorithms used in competitive programming
+
 ```mermaid
 graph TD;
     id1[Participate in Competitive Programming Competitions]-->id2[Review Problems and Solutions Post-Competition];
@@ -48,7 +54,6 @@ Resouces:
 (Provided by Ash)
 
 # For Showing Up
-- `.vimrc` settings file
 - Automatic spock login with SSHPass by typing `spock`
 
 # Notes to Self

@@ -22,7 +22,7 @@ read -sp "Enter your @spock.highpoint.edu password: " password && echo  #newline
 # 4. Create autologin script in ~/.scripts
 if [ ! -d "$scripts_dir" ]; then
     echo "INFO: Creating directory $scripts_dir..."
-    mkdir $scripts_dir && echo "SUCCESS"
+    mkdir "$scripts_dir" && echo "SUCCESS"
 fi
 
 if [ ! -f "$script_fullpath" ]; then

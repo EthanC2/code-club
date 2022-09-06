@@ -1,7 +1,7 @@
 # Interest Meeting
 
 # Club Structure
-- Meetings are now Tuesdays at 5:00pm (potentially Wednesday instead)
+- Meetings are now Wednesdays at 5:00pm
 - Club is now composed of 3 smaller clubs (programming, cybersecurity, competitive programming)
 - Need for treasurer, backup SGA representative, and leader for programming and competitive programming subclubs (freshmen welcome!)
 - Every week, the main club will focus on one of the three subclubs

@@ -55,7 +55,12 @@ graph TD;
 Resouces:
 
 ## HPU Minds
-(Provided by Ash)
+-HPU Minds meeting time is still being determined, will send out availability form to any interested CODE Club members afterwards
+-This year we are splitting into two teams, one that will work with Matt Eaton on creating a robot and one software team that will work on data extraction and parsing from the headset
+-Currently working on BCI interface project, but considering adding another project in spring
+-Computer Science, Data Science, Computer Engineering, and Neuroscience majors preferred, but all majors welcome
+-Flexible time commitment, but expected to contribute a minimum of 2 hours a week (fitting around student's schedule)
+-Currently looking for Treasurer, Backup SGA Rep, and possible Social Media Manager
 
 # For Showing Up
 - Automatic spock login with SSHPass by typing `spock`

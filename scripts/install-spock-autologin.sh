@@ -13,7 +13,7 @@ if [ $(id -u) -ne 0 ]; then
 fi
 
 # 2. Install SSHPass
-#apt install sshpass
+apt install sshpass
 
 # 3. Get the user's login info for autologin
 read -p "Enter your @spock.highpoint.edu username: " username

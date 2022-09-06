@@ -17,6 +17,7 @@ Leader: Reilly
 - Heavily based around a feedback loop of competiting in cyber CTFs and then reviewing the write-ups
     1. Thig
     2. tew
+- Other
 
 ```mermaid
 graph TD;

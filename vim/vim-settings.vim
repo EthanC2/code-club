@@ -52,7 +52,7 @@ set ignorecase                  " Make searches non-case-sensitive
 set smartcase                   " Ignore 'ignorecase' if you use capital letters ("NaN" != "naN")
 nnoremap <C-L> :nohl<CR><C-L>   " Disable highlighting after 
 
-if has('mouse')                 " Enable selecting line via mouse -- you're welcome.
+if has('mouse')                 " Enable selecting line via mouse
     set mouse=a
 endif
 
